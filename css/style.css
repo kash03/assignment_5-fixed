@@ -217,9 +217,13 @@ footer{
 	font-family: sans-serif;
 	border-right: 1px solid white; 
 	font-size: 13px;
+	list-style: none;
 	
 	
 }
+.nav ul li:last-child a {
+ 	border-right:0;
+ }
 
 .footer-logo{
     margin-top: 15px;
